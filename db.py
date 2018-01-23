@@ -86,13 +86,13 @@ class DB:
         self.gdb = dbcore.GraphDB()
 
         self.wweight = dbcore.ScoreDB()
-        #self.wwrep = dbcore.ScoreDB()
+        # self.wwrep = dbcore.ScoreDB()
 
         self.bweight = dbcore.ScoreDB()
-        #self.bwrep = dbcore.ScoreDB()
+        # self.bwrep = dbcore.ScoreDB()
 
         self.minmax = dbcore.ScoreDB()
-        #self.mmrep = dbcore.ScoreDB()
+        # self.mmrep = dbcore.ScoreDB()
 
         if fname:
             self.load(fname)
